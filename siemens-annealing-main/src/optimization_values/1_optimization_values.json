@@ -1,0 +1,203 @@
+{
+    "Delays": {
+        "delayed": true,
+        "delay_amounts": {
+            "(10, 101)": 5,
+            "(10, 102)": 5,
+            "(10, 103)": 5,
+            "(10, 104)": 5,
+            "(10, 105)": 5,
+            "(20, 101)": 0,
+            "(20, 102)": 0,
+            "(20, 103)": 0,
+            "(20, 104)": 0,
+            "(20, 105)": 0,
+            "(21, 105)": 0,
+            "(21, 104)": 0,
+            "(21, 103)": 0,
+            "(21, 102)": 0
+        },
+        "conflicts": [
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:26",
+                    "08:26"
+                ],
+                "conflict_type": "capacity_station",
+                "station": 103
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:26",
+                    "08:29"
+                ],
+                "conflict_type": "capacity_station",
+                "station": 103
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:26",
+                    "08:26"
+                ],
+                "conflict_type": "capacity_platform",
+                "station": 103,
+                "platform": 1
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:26",
+                    "08:29"
+                ],
+                "conflict_type": "capacity_platform",
+                "station": 103,
+                "platform": 1
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:09",
+                    "08:18"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 0
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:21",
+                    "08:26"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 1
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:26",
+                    "08:30"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 1
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:26",
+                    "08:30"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 2
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:30",
+                    "08:38"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 2
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:29",
+                    "08:33"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 2
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:30",
+                    "08:38"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 3
+            },
+            {
+                "trains": [
+                    10,
+                    20
+                ],
+                "time_interval": [
+                    "08:36",
+                    "08:44"
+                ],
+                "conflict_type": "capacity_line",
+                "line": 3
+            }
+        ],
+        "optimization_output": {
+            "Optimization with LP": {
+                "d_10_101": 5.0,
+                "d_10_102": 5.0,
+                "d_10_103": 5.0,
+                "d_10_104": 5.0,
+                "d_10_105": 5.0,
+                "d_20_101": 0,
+                "d_20_102": 0,
+                "d_20_103": 0,
+                "d_20_104": 0,
+                "d_20_105": 0,
+                "d_21_105": 0,
+                "d_21_104": 0,
+                "d_21_103": 0,
+                "d_21_102": 0
+            },
+            "Optimization with QUBO": {
+                "x_10_101": 5.00000191543342,
+                "x_10_102": 5.000001595140705,
+                "x_10_103": 5.000001519472738,
+                "x_10_104": 5.000001575710531,
+                "x_10_105": 5.0,
+                "x_20_101": 4.099935970539994e-06,
+                "x_20_102": 5.256294996007858e-06,
+                "x_20_103": 9.471426718674134e-07,
+                "x_20_104": 4.346837061971205e-06,
+                "x_20_105": 0,
+                "x_21_105": 5.839278457187793e-06,
+                "x_21_104": 7.166700907550626e-06,
+                "x_21_103": 2.0574311260137592e-06,
+                "x_21_102": 0
+            }
+        }
+    }
+}

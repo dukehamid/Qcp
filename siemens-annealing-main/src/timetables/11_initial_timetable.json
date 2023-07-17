@@ -1,0 +1,156 @@
+{
+    "stations": [
+        {
+            "id": 101,
+            "name": "Station 101",
+            "capacity": 1
+        },
+        {
+            "id": 102,
+            "name": "Station 102",
+            "capacity": 3
+        },
+        {
+            "id": 103,
+            "name": "Station 103",
+            "capacity": 3
+        },
+        {
+            "id": 104,
+            "name": "Station 104",
+            "capacity": 1
+        },
+        {
+            "id": 105,
+            "name": "Station 105",
+            "capacity": 2
+        },
+        {
+            "id": 106,
+            "name": "Station 106",
+            "capacity": 2
+        }
+    ],
+    "track_lines": [
+        {
+            "from_station": 101,
+            "to_station": 102,
+            "distance": 11.04,
+            "capacity": 1
+        },
+        {
+            "from_station": 102,
+            "to_station": 103,
+            "distance": 9.06,
+            "capacity": 1
+        },
+        {
+            "from_station": 103,
+            "to_station": 104,
+            "distance": 4.64,
+            "capacity": 1
+        },
+        {
+            "from_station": 104,
+            "to_station": 105,
+            "distance": 6.02,
+            "capacity": 1
+        },
+        {
+            "from_station": 105,
+            "to_station": 106,
+            "distance": 12.44,
+            "capacity": 1
+        }
+    ],
+    "trains": [
+        {
+            "id": 10,
+            "name": "Train 1",
+            "type": "express",
+            "schedule": [
+                {
+                    "station": 103,
+                    "platform": 2,
+                    "arrival": null,
+                    "departure": "14:00"
+                },
+                {
+                    "station": 102,
+                    "platform": 1,
+                    "arrival": "13:48",
+                    "departure": "13:44"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Train 2",
+            "type": "express",
+            "schedule": [
+                {
+                    "station": 106,
+                    "platform": 2,
+                    "arrival": null,
+                    "departure": "13:39"
+                },
+                {
+                    "station": 103,
+                    "platform": 1,
+                    "arrival": "13:22",
+                    "departure": "13:17"
+                },
+                {
+                    "station": 101,
+                    "platform": 3,
+                    "arrival": "12:55",
+                    "departure": "12:50"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Train 3",
+            "type": "express",
+            "schedule": [
+                {
+                    "station": 101,
+                    "platform": 3,
+                    "arrival": null,
+                    "departure": "12:50"
+                },
+                {
+                    "station": 103,
+                    "platform": 2,
+                    "arrival": "13:07",
+                    "departure": "13:11"
+                },
+                {
+                    "station": 106,
+                    "platform": 3,
+                    "arrival": "13:50",
+                    "departure": null
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Train 4",
+            "type": "express",
+            "schedule": [
+                {
+                    "station": 103,
+                    "platform": 1,
+                    "arrival": null,
+                    "departure": "13:20"
+                },
+                {
+                    "station": 101,
+                    "platform": 1,
+                    "arrival": "13:07",
+                    "departure": "13:03"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+solution for: train_qubo_scheduling
+objective: -3.64197e-06
+status: FEASIBLE_SOLUTION(1)
+Delays_10_101=5.000
+Delays_10_102=5.000
+Delays_10_103=5.000
+Delays_10_104=5.000
+Delays_10_105=5.000
+Delays_20_101=0.000
+Delays_20_102=0.000
+Delays_20_103=0.000
+Delays_20_104=0.000
+Delays_21_105=0.000
+Delays_21_104=0.000
+Delays_21_103=0.000
+secondary_delay_10_101=0.000
+secondary_delay_10_102=0.000
+secondary_delay_10_103=0.000
+secondary_delay_10_104=0.000
+secondary_delay_20_101=0.000
+secondary_delay_20_102=0.000
+secondary_delay_20_103=0.000
+secondary_delay_20_104=0.000
+secondary_delay_21_105=0.000
+secondary_delay_21_104=0.000
+secondary_delay_21_103=0.000
+x_10_103_10=1
+x_10_104_7=1
+x_20_102_0=1
+x_20_104_0=1
+x_20_104_2=1
+x_20_105_2=1
+x_21_103_1=1
+x_21_102_5=1

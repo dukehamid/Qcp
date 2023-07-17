@@ -1,0 +1,57 @@
+{
+  "stations": [
+    {"id": 101, "name": "Pasing", "capacity": 2},
+    {"id": 102, "name": "Siemens Konzernzentrale", "capacity": 2},
+    {"id": 103, "name": "Studentenstadt", "capacity": 1},
+    {"id": 104, "name": "Allianz Arena", "capacity": 1},
+    {"id": 105, "name": "Garching Forschungsz.", "capacity": 2}
+  ],
+  "track_lines": [
+    {"from_station": 101, "to_station": 102, "distance": 11, "capacity": 1},
+    {"from_station": 102, "to_station": 103, "distance": 5.5, "capacity": 1},
+    {"from_station": 103, "to_station": 104, "distance": 4.7, "capacity": 1},
+    {"from_station": 104, "to_station": 105, "distance": 10, "capacity": 1}
+  ],
+  "train_speed_limit": {
+    "express": 80,
+    "city": 80,
+    "shuttle": 60
+  },
+  "trains": [
+  {
+      "id": 10,
+      "name": "Expresszug (Linie E)",
+      "type": "express",
+      "schedule": [
+        {"station": 101, "platform" : 1,  "arrival": null, "departure": "08:09"},
+        {"station": 102, "platform" : 1, "arrival": "08:18", "departure": "08:21"},
+        {"station": 103, "platform" : 1, "arrival": "08:26", "departure": "08:26"},
+        {"station": 104, "platform" : 1, "arrival": "08:30", "departure": "08:30"},
+        {"station": 105, "platform" : 1, "arrival": "08:38", "departure": null}
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Stadtbahn (Linie S1)",
+      "type": "city",
+      "schedule": [
+        {"station": 101, "platform" : 2, "arrival": null, "departure": "08:09"},
+        {"station": 102, "platform" : 2, "arrival": "08:18", "departure": "08:21"},
+        {"station": 103, "platform" : 1, "arrival": "08:26", "departure": "08:29"},
+        {"station": 104, "platform" : 1, "arrival": "08:33", "departure": "08:36"},
+        {"station": 105, "platform" : 2, "arrival": "08:44", "departure": null}
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Stadtbahn (Linie S2)",
+      "type": "city",
+        "schedule": [
+        {"station": 105, "platform" : 2, "arrival": null, "departure": "07:40"},
+        {"station": 104, "platform" : 1, "arrival": "07:48", "departure": "07:51"},
+        {"station": 103, "platform" : 1, "arrival": "07:55", "departure": "07:58"},
+        {"station": 102, "platform" : 2, "arrival": "08:03", "departure": null}
+      ]
+    }
+  ]
+}

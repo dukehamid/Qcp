@@ -1,0 +1,162 @@
+{
+    "stations": [
+        {
+            "id": 101,
+            "name": "Station 101",
+            "capacity": 2
+        },
+        {
+            "id": 102,
+            "name": "Station 102",
+            "capacity": 2
+        },
+        {
+            "id": 103,
+            "name": "Station 103",
+            "capacity": 1
+        },
+        {
+            "id": 104,
+            "name": "Station 104",
+            "capacity": 3
+        },
+        {
+            "id": 105,
+            "name": "Station 105",
+            "capacity": 2
+        },
+        {
+            "id": 106,
+            "name": "Station 106",
+            "capacity": 3
+        }
+    ],
+    "track_lines": [
+        {
+            "from_station": 101,
+            "to_station": 102,
+            "distance": 7.45,
+            "capacity": 1
+        },
+        {
+            "from_station": 102,
+            "to_station": 103,
+            "distance": 4.99,
+            "capacity": 1
+        },
+        {
+            "from_station": 103,
+            "to_station": 104,
+            "distance": 13.33,
+            "capacity": 1
+        },
+        {
+            "from_station": 104,
+            "to_station": 105,
+            "distance": 3.46,
+            "capacity": 1
+        },
+        {
+            "from_station": 105,
+            "to_station": 106,
+            "distance": 11.64,
+            "capacity": 1
+        }
+    ],
+    "trains": [
+        {
+            "id": 10,
+            "name": "Train 1",
+            "type": "express",
+            "schedule": [
+                {
+                    "station": 101,
+                    "platform": 2,
+                    "arrival": null,
+                    "departure": "08:00"
+                },
+                {
+                    "station": 102,
+                    "platform": 2,
+                    "arrival": "08:12",
+                    "departure": "08:17"
+                },
+                {
+                    "station": 104,
+                    "platform": 1,
+                    "arrival": "08:37",
+                    "departure": "08:42"
+                },
+                {
+                    "station": 106,
+                    "platform": 1,
+                    "arrival": "09:03",
+                    "departure": null
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Train 2",
+            "type": "city",
+            "schedule": [
+                {
+                    "station": 102,
+                    "platform": 1,
+                    "arrival": null,
+                    "departure": "08:46"
+                },
+                {
+                    "station": 101,
+                    "platform": 2,
+                    "arrival": "08:40",
+                    "departure": "08:35"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Train 3",
+            "type": "city",
+            "schedule": [
+                {
+                    "station": 101,
+                    "platform": 2,
+                    "arrival": null,
+                    "departure": "08:35"
+                },
+                {
+                    "station": 102,
+                    "platform": 1,
+                    "arrival": "08:53",
+                    "departure": "08:58"
+                },
+                {
+                    "station": 106,
+                    "platform": 3,
+                    "arrival": "09:30",
+                    "departure": null
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Train 4",
+            "type": "city",
+            "schedule": [
+                {
+                    "station": 106,
+                    "platform": 1,
+                    "arrival": null,
+                    "departure": "09:12"
+                },
+                {
+                    "station": 102,
+                    "platform": 2,
+                    "arrival": "08:54",
+                    "departure": "08:51"
+                }
+            ]
+        }
+    ]
+}
